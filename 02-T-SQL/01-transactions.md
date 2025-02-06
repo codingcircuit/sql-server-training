@@ -1,4 +1,4 @@
-# Transactions in T-SQL
+# Transactions
 
 ## Index
 - [Introduction to Transactions](#introduction-to-transactions)
