@@ -1,0 +1,35 @@
+### **Oracle SQL vs. T-SQL – Topic Comparison Table**
+
+| **Oracle SQL/PLSQL Topics**                       | **T-SQL (SQL Server) Equivalent**                         | **Description**                                                                                               |
+|----------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Database Configuration (Oracle 11g)**            | **SQL Server Installation and Configuration**              | Both involve installing the RDBMS and configuring users, roles, and databases.                                |
+| **RDBMS and SQL Concepts**                         | **Same in T-SQL**                                         | The basic concepts of RDBMS and SQL are identical in both Oracle and SQL Server.                              |
+| **Data Types (CHAR, VARCHAR2, NUMBER, DATE, BLOB)**| **CHAR, VARCHAR, INT, DATETIME, VARBINARY(MAX)**          | Data types differ in naming conventions and supported types.                                                   |
+| **Constraints (NOT NULL, UNIQUE, etc.)**           | **Same in T-SQL**                                         | Constraints are implemented similarly in both systems.                                                         |
+| **DDL Commands (CREATE, ALTER, DROP)**             | **Same in T-SQL**                                         | Syntax and functionality are mostly identical.                                                                 |
+| **DML Commands (INSERT, UPDATE, DELETE)**          | **Same in T-SQL**                                         | Basic CRUD operations work the same in both systems.                                                           |
+| **TCL (COMMIT, ROLLBACK, SAVEPOINT)**              | **Same in T-SQL**                                         | Transaction control commands behave similarly in both platforms.                                               |
+| **Pseudo Columns (ROWNUM, ROWID, SYSDATE)**        | **`ROW_NUMBER()`, `GETDATE()`**                           | T-SQL replaces `ROWNUM` with `ROW_NUMBER()` and uses `GETDATE()` for the current date/time.                   |
+| **Sequences (`CREATE SEQUENCE`)**                  | **IDENTITY Columns, `CREATE SEQUENCE`**                    | Both support sequences for generating unique values.                                                           |
+| **MERGE (Upsert Operation)**                       | **MERGE**                                                 | Both systems support `MERGE` for conditional inserts, updates, and deletes.                                    |
+| **Joins (INNER, OUTER, CROSS, SELF)**              | **Same in T-SQL**                                         | Join types are consistent across both platforms.                                                               |
+| **Subqueries (Correlated, Nested)**                | **Same in T-SQL**                                         | Subqueries function similarly in both platforms.                                                               |
+| **SET Operators (UNION, MINUS, INTERSECT)**        | **`UNION`, `EXCEPT`, `INTERSECT`**                        | `MINUS` in Oracle is `EXCEPT` in T-SQL.                                                                       |
+| **Analytical Functions (ROW_NUMBER, RANK, etc.)**  | **Same in T-SQL**                                         | Both support window functions with similar syntax and usage.                                                   |
+| **Views and Materialized Views**                   | **Views, Indexed Views**                                  | T-SQL supports views; materialized views are replaced by indexed views with limitations.                       |
+| **Cursors (Implicit, Explicit)**                   | **Same in T-SQL**                                         | Cursors exist in both systems, but T-SQL lacks some advanced cursor features of Oracle.                        |
+| **PL/SQL Blocks (`DECLARE`, `BEGIN`, `END`)**      | **T-SQL Scripts with Variables and Logic**                | T-SQL scripts mimic PL/SQL blocks using `DECLARE` and procedural statements.                                   |
+| **Functions and Procedures**                       | **Same in T-SQL**                                         | Syntax differs, but both support user-defined functions and stored procedures.                                 |
+| **Triggers (BEFORE, AFTER, INSTEAD OF)**           | **AFTER, INSTEAD OF**                                     | T-SQL supports `AFTER` and `INSTEAD OF` triggers but not `BEFORE` triggers.                                   |
+| **Packages (Specification and Body)**              | **Schemas and Individual Procedures**                     | T-SQL does not have packages; use schemas to group related objects.                                            |
+| **Collections (Associative Arrays, Nested Tables)**| **Table Variables, Temporary Tables**                     | Use table variables or temporary tables for similar functionality.                                             |
+| **Dynamic SQL (`EXECUTE IMMEDIATE`)**              | **`EXEC()` or `sp_executesql`**                           | Dynamic SQL in T-SQL uses `EXEC()` or `sp_executesql`.                                                        |
+| **Exception Handling (`EXCEPTION`)**               | **`TRY...CATCH`**                                         | T-SQL uses `TRY...CATCH` for error handling.                                                                  |
+| **Autonomous Transactions**                        | **No Direct Equivalent**                                  | Use nested transactions or savepoints as a workaround in T-SQL.                                                |
+| **Bulk Collect and FORALL**                        | **`INSERT INTO...SELECT`, Table-Valued Parameters (TVP)** | T-SQL supports bulk operations through table-valued parameters and optimized `INSERT INTO...SELECT`.           |
+| **Table Functions (`RETURN TABLE`)**               | **Inline Table-Valued Functions**                         | Both support functions that return tables.                                                                     |
+| **Database Links**                                 | **Linked Servers**                                        | Use linked servers in SQL Server to connect to other databases.                                                |
+| **Indexes (B-tree, Bitmap, etc.)**                 | **Clustered, Non-Clustered Indexes**                      | SQL Server supports clustered and non-clustered indexes, but not bitmap indexes.                               |
+| **Query Performance (EXPLAIN PLAN)**               | **Execution Plan (`SET STATISTICS TIME, IO ON`)**         | Both support execution plans, but tools and syntax differ.                                                     |
+
+---
