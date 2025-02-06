@@ -1,8 +1,8 @@
-# SQL Server Training
+# Documentation Index
 
 This repository contains the following markdown files:
 
-## MS-SQL/00.basics
+## [MS-SQL/00.basics](https://github.com/codingcircuit/sql-server-training/tree/main/MS-SQL/00.basics)
 
 - [00-sql-server-introduction.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/00-sql-server-introduction.md)
 - [01-data-types-and-constraints.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/01-data-types-and-constraints.md)
@@ -13,8 +13,11 @@ This repository contains the following markdown files:
 - [06-aggregate-functions.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/06-aggregate-functions.md)
 - [07-joins.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/07-joins.md)
 
+## [MS-SQL/00.basics/assignments](https://github.com/codingcircuit/sql-server-training/tree/main/MS-SQL/00.basics/assignments)
 
-## MS-SQL/01.advanced
+- [AW-SELECT-01.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/assignments/AW-SELECT-01.md)
+
+## [MS-SQL/01.advanced](https://github.com/codingcircuit/sql-server-training/tree/main/MS-SQL/01.advanced)
 
 - [01-sub-queries.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/01-sub-queries.md)
 - [02-set-operators.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/02-set-operators.md)
