@@ -1,4 +1,4 @@
-# Documentation Index
+# SQL Server Training
 
 This repository contains the following markdown files:
 
