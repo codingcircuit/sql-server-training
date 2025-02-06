@@ -1,4 +1,4 @@
-# T-SQL Indexes
+# Indexes
 
 ## Index
 - [Introduction to Indexes](#introduction-to-indexes)
