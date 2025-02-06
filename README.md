@@ -1,4 +1,4 @@
-# Documentation Index
+# SQL Server Training
 
 This repository contains the following markdown files:
 
@@ -13,9 +13,6 @@ This repository contains the following markdown files:
 - [06-aggregate-functions.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/06-aggregate-functions.md)
 - [07-joins.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/07-joins.md)
 
-## [MS-SQL/00.basics/assignments](https://github.com/codingcircuit/sql-server-training/tree/main/MS-SQL/00.basics/assignments)
-
-- [AW-SELECT-01.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/assignments/AW-SELECT-01.md)
 
 ## [MS-SQL/01.advanced](https://github.com/codingcircuit/sql-server-training/tree/main/MS-SQL/01.advanced)
 
