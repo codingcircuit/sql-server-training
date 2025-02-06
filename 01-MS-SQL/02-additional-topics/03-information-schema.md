@@ -1,4 +1,4 @@
-# INFORMATION_SCHEMA in SQL Server
+# INFORMATION_SCHEMA
 
 ## Table of Contents
 1. [Introduction](#introduction)
