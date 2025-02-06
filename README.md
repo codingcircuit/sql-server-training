@@ -1,39 +1,31 @@
-# SQL Server Training
+# Documentation Index
 
-Welcome to the SQL Server Training repository! This collection of Markdown files covers a wide range of SQL Server topics, designed to help you master the database system.
+This repository contains the following markdown files:
 
-## Table of Contents
+## MS-SQL/00.basics
 
-0. [SQL Server Introduction](./00.sql-server-introduction.md)
-1. [Data Types and Constraints](./01.data-types-and-constraints.md)
-2. [Data Definition Language (DDL)](./02.DDL.md)
-3. [Data Manipulation Language (DML)](./03.DML.md)
-4. [Data Retrieval Language (SELECT)](./04.DRL(Select).md)
-5. [Single Row Functions](./05.single-row-functions.md)
-6. [Aggregate Functions](./06.aggregate-functions.md)
-7. [Joins](./07.joins.md)
-8. [Sub-Queries](./08.sub-queries.md)
-9. [Set Operators](./09.set-operators.md)
-10. [Analytical and Window Functions](./10.analytical-and-window-functions.md)
-11. [Conditional Statements](./11.conditional-statements.md)
-12. [Data Type Conversion Functions](./12.data-type-conversion-functions.md)
-13. [Common Table Expressions (CTE)](./13.CTE.md)
-14. [Temporary Tables](./14.temporary-tables.md)
-15. [INFORMATION_SCHEMA](./15.information-schema.md)
-16. [Cardinality](./16.cardinality.md)
+- [00-sql-server-introduction.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/00-sql-server-introduction.md)
+- [01-data-types-and-constraints.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/01-data-types-and-constraints.md)
+- [02-DDL.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/02-DDL.md)
+- [03-DML.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/03-DML.md)
+- [04-DRL(Select).md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/04-DRL(Select).md)
+- [05-single-row-functions.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/05-single-row-functions.md)
+- [06-aggregate-functions.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/06-aggregate-functions.md)
+- [07-joins.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/07-joins.md)
 
-## Description
+## MS-SQL/00.basics/assignments
 
-Each file contains detailed explanations, examples, and use cases for the respective SQL Server topic. The content is structured to provide both foundational knowledge and advanced insights.
+- [AW-SELECT-01.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/00.basics/assignments/AW-SELECT-01.md)
 
-## How to Use
+## MS-SQL/01.advanced
 
-Navigate to the file corresponding to the topic you're interested in by clicking the links in the table of contents.
+- [01-sub-queries.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/01-sub-queries.md)
+- [02-set-operators.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/02-set-operators.md)
+- [03-analytical-and-window-functions.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/03-analytical-and-window-functions.md)
+- [04-conditional-statements.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/04-conditional-statements.md)
+- [05-CTE.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/05-CTE.md)
+- [06-data-type-conversion-functions.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/06-data-type-conversion-functions.md)
+- [07-temporary-tables.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/07-temporary-tables.md)
+- [08-information-schema.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/08-information-schema.md)
+- [09-cardinality.md](https://github.com/codingcircuit/sql-server-training/blob/main/MS-SQL/01.advanced/09-cardinality.md)
 
-## Contribution
-
-Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
