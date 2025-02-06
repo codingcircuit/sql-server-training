@@ -1,4 +1,4 @@
-# T-SQL Indexes and Performance Optimization (AdventureWorks 2022)
+# T-SQL Indexes
 
 ## Index
 - [Introduction to Indexes](#introduction-to-indexes)
